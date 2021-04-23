@@ -1,4 +1,4 @@
-## SETUP
+## Setup
 link your selenium driver executable_path in fetch.py
 
 ## Usage
