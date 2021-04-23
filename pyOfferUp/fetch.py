@@ -3,13 +3,13 @@ import json
 import urllib
 
 from selenium import webdriver
-from lib import places
+from pyOfferUp import places
 
 options = webdriver.ChromeOptions()
 user_agent = 'MMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36'
 options.add_argument(f'user-agent={user_agent}')
 options.add_argument('--headless')
-driver = webdriver.Chrome(executable_path=r'C:\Users\oscar\PycharmProjects\pyOfferUp\chromedriver.exe',
+driver = webdriver.Chrome(executable_path=r'/chromedriver.exe',
                           chrome_options=options)
 
 
