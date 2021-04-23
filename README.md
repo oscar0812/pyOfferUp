@@ -13,8 +13,14 @@ print(places.available_states())
 print(places.available_cities("Texas"))
 print(places.available_cities("Alabama"))
 ```
+returns:
+```
+['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
+['Abilene', 'Addison', 'Amarillo', 'Arlington', 'Austin', 'Baytown', 'Beaumont', 'Brownsville', 'Bryan', 'Carrollton', 'Cedar Hill', 'Channelview', 'Conroe', 'Corpus Christi', 'Dallas', 'Denton', 'Duncanville', 'El Paso', 'Euless', 'Farmers Branch', 'Fort Worth', 'Frisco', 'Garland', 'Grand Prairie', 'Harlingen', 'Houston', 'Humble', 'Irving', 'Katy', 'Killeen', 'Laredo', 'Lewisville', 'Longview', 'Lubbock', 'Lufkin', 'Mansfield', 'Mcallen', 'McKinney', 'Mesquite', 'Midland', 'Midlothian', 'Nacogdoches', 'Odessa', 'Pearland', 'Pflugerville', 'Plano', 'Port Arthur', 'Richardson', 'Round Rock', 'San Angelo', 'San Antonio', 'San Marcos', 'Sherman', 'Stafford', 'Sugar Land', 'Sweetwater', 'Temple', 'Tomball', 'Tyler', 'Victoria', 'Waco', 'Weslaco', 'Wichita Falls']
+['Anniston', 'Birmingham', 'Decatur', 'Dothan', 'Huntsville', 'Mobile', 'Montgomery', 'Selma', 'Tuscaloosa']
+```
 
-#### Example
+#### Lookup Example
 Look for "luigis mansion" in Mcallen, Texas:
 ```python
 from pyOfferUp import fetch
