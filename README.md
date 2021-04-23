@@ -3,7 +3,8 @@ link your selenium driver executable_path in fetch.py
 
 ## Usage
 OfferUp uses latitude and longitude coordinates when fetching data from the API. places.py has 
-the coordinates of all the states and cities OfferUp supports (case sensitive).
+the coordinates of all the states and cities OfferUp supports (case sensitive). When looking in
+a city you must also provide the state the city resides in.
 
 ### Available States and cities
 ```python
