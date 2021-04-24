@@ -1,3 +1,8 @@
+## Installation
+```
+pip install pyOfferUp
+```
+
 ## Setup
 fetch.py uses Selenium to bypass OfferUp's anti-scrapping software.
 Set your selenium chrome driver executable_path:
