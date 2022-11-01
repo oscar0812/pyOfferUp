@@ -11,8 +11,8 @@ setup(
     url='https://github.com/oscar0812/pyOfferUp',  # Provide either the link to your github or to your website
     download_url='https://github.com/oscar0812/pyOfferUp/archive/refs/tags/v_01.tar.gz',  # I explain this later on
     keywords=['OFFERUP', 'BUYING', 'SCRAPER', 'BITTLE'],  # Keywords that define your package best
-    install_requires=[  # I get to this in a second
-        'selenium'
+    install_requires=[
+        'requests'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',

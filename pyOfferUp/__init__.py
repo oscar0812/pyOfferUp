@@ -1,2 +1,2 @@
-from pyOfferUp.fetch import get_posts, get_posts_by_lat_lon, driver_executable_path
+from pyOfferUp.fetch import get_listings, get_listings_by_lat_lon, get_listing_details
 import pyOfferUp.places
