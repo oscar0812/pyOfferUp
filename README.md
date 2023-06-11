@@ -39,7 +39,7 @@ Look for "luigis mansion" around lat=26.2043691, lon=-98.230082
 ```python
 from pyOfferUp import fetch
 
-posts = fetch.get_listing_details(query="luigis mansion", lat=26.2043691, lon=-98.230082, limit=100)
+posts = fetch.get_listings_by_lat_lon(query="luigis mansion", lat=26.2043691, lon=-98.230082, limit=100)
 ```
 returns:
 ```
