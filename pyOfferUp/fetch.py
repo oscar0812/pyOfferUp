@@ -56,10 +56,10 @@ def get_listings_by_lat_lon(query, lat, lon, limit=50, pickup_distance=50, price
                      {"key": "searchSessionId", "value": ""}]
 
     if price_min is not None:
-        search_params.append({"key": "PRICE_MIN", "value": price_min})
+        search_params.append({"key": "PRICE_MIN", "value": str(price_min)})
 
     if price_max is not None:
-        search_params.append({"key": "PRICE_MAX", "value": price_max})
+        search_params.append({"key": "PRICE_MAX", "value": str(price_max)})
 
     if len(conditions) > 0:
         conditions_str = ",".join([str(c.value) for c in conditions])
